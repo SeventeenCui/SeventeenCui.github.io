@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffafff;
+  background: #e84f4a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3120,4 +3120,23 @@ pre .javascript .function {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.site-author-image {
+  border: 0px solid #fff;
+  border-radius: 100%;
+  transition: transform 1s ease-out;
+}
+img:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+.posts-expand .post-body img:hover {
+  -webkit-transform: initial;
+  -moz-transform: initial;
+  -ms-transform: initial;
+  -o-transform: initial;
+  transform: initial;
 }
